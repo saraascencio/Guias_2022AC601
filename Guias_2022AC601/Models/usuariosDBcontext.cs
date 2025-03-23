@@ -12,6 +12,7 @@ namespace Guias_2022AC601.Models
         }
 
         public DbSet<marcas> marcas { get; set; }
+        public DbSet<usuarios> usuarios { get; set; }
 
     }
 }
